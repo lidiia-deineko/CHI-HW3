@@ -7,14 +7,146 @@
   <title>ANVIO</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 
   <script src="js/main.js"></script>
 
 </head>
 <body>
-  
+  <header class="header">
+    <div class="container">
+      <nav class="menu">
+        <div class="navbar-logo">
+          <a href="#">
+            <img class="navbar-logo-img" src="/images/anvio-logo.svg" alt="Nuntium Logo">
+          </a>
+        </div>
+        <ul class="navbar-items">
+          <li class="navbar-item navbar-item__arrow"><a class="navbar-link" href="#">Развлечения</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">Эмоции</a></li>
+          <li class="navbar-item navbar-item__arrow"><a class="navbar-link" href="#">мероприятия</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">отзывы</a></li>
+        </ul>
+        <div class="navbar-btn">
+          <button class="navbar-btn-item">КУПИТЬ БИЛЕТ</button>
+        </div>
+        <ul class="navbar-items">
+          <li class="navbar-item"><a class="navbar-link" href="tel:+380672963030">+38 (067) 296-30-30</a></li>
+          <li class="navbar-item navbar-item__arrow"><a class="navbar-link" href="#">КИЕВ</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">ВОЙТИ</a></li>
+          <li class="navbar-item navbar-item__arrow"><a class="navbar-link" href="#">UA</a></li>
+        </ul>
+        <div class="navbar-mobile">
+          <div class="navbar-mobile-item">
+            <a href=""><img src="/images/navidation.svg" alt=""></a>
+          </div>
+          <div class="navbar-mobile-item">
+            <a href=""><img src="/images/phone.svg" alt=""></a>
+          </div>
+          <div class="navbar-mobile-item mobile-open-btn">
+            <img src="/images/mobile-menu-btn.svg" alt="">
+          </div>
+          <div class="navbar-mobile-item mobile-close-btn hidden">
+            <img src="/images/mobile-close-btn.svg" alt="">
+          </div>
+        </div>
+      </nav>
+  </header>
+  <div class="mobile-menu">
+    <div class="mobile-menu_wrapper hidden">
+      <div class="mobile-menu_modal">
+        <ul class="mobile-menu_items">
+          <li class="mobile-menu_item mobile-menu_item__arrow"><a href="">Киев</a></li>
+          <li class="mobile-menu_item mobile-menu_item__arrow"><a href="">UA</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <button class="mobile-btn buy-btn">КУПИТЬ БИЛЕТ</button>
+        </div>
+        <div class="mobile-menu-btn">
+          <button class="mobile-btn order-btn">Заказать праздник</button>
+        </div>
+        <ul class="mobile-menu_list">
+          <li class="mobile-menu_item mobile-menu_item__arrow entertainment-btn">Развлечения</li>
+            <!-- <ul class="drop-mobile-menu_list">
+              <li class="drop-mobile-menu_item"><a href="">Арена</a></li>
+              <li class="drop-mobile-menu_item"><a href="">Куб</a></li>
+              <li class="drop-mobile-menu_item"><a href="">Атракционы</a></li>
+              <li class="drop-mobile-menu_item"><a href="">Стенды</a></li>
+              <li class="drop-mobile-menu_item"><a href="">PvP-соревнования</a></li>
+              <li class="drop-mobile-menu_item"><a href="">Билет в парк</a></li>
+            </ul> -->
+
+            <ul class="drop-mobile-menu_list entertainment-list">
+              <li class="drop-mobile-menu_item"><a href=""></a><img src="/images/arena.png" alt=""></li>
+              <li class="drop-mobile-menu_item"><a href=""></a><img src="/images/cube.png" alt=""></li>
+              <li class="drop-mobile-menu_item"><a href=""></a><img src="/images/attractions.png" alt=""></li>
+              <li class="drop-mobile-menu_item"><a href=""></a><img src="/images/stend.png" alt=""></li>
+              <li class="drop-mobile-menu_item"><a href=""></a><img src="/images/pvp.png" alt=""></li>
+              <li class="drop-mobile-menu_item"><a href=""></a><img src="/images/ticket-park.png" alt=""></li>
+            </ul>
+            
 
 
-  
+          
+          <li class="mobile-menu_item"><a class="mobile-menu_item__arrow" href="">Праздники</a></li>
+          <li class="mobile-menu_item"><a href="">Сертификаты</a></li>
+          <li class="mobile-menu_item"><a href="">Контакты</a></li>
+        </ul>
+        <ul class="mobile-menu_contacts">
+          <li class="mobile-menu_contacts_item"><a class="mobile-menu_contacts_link" href="tel:+380672963030">+38 (067) 296-30-30</a></li>
+          <li class="mobile-menu_contacts_item"><a class="mobile-menu_contacts_link" href="mailto:info@anviovr.com">info@anviovr.com</a></li>
+        </ul>
+        <ul class="mobile-menu_social-links">
+          <li class="mobile-menu_social-item"><a href="#"><img src="/images/telegram.png" alt=""></a></li>
+          <li class="mobile-menu_social-item"><a href="#"><img src="/images/whatsapp.png" alt=""></a></li>
+          <li class="mobile-menu_social-item"><a href="#"><img src="/images/fb.png" alt=""></a></li>
+          <li class="mobile-menu_social-item"><a href="#"><img src="/images/telegram.png" alt=""></a></li>
+          <li class="mobile-menu_social-item"><a href="#"><img src="/images/youtube.png" alt=""></a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <a class="mobile-menu-btn-enter">ВОЙТИ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <main>
+    <section class="banner">
+      <div class="container">
+        <div class="banner-wrapper">
+          <div class="banner-items">
+            <div class="banner-content">
+              <h1 class="banner-title">
+                VR-клуб «Anvio»
+              </h1>
+              <p class="banner-text">
+                парк цифровых развлечений для всей семьи
+              </p>
+            </div>
+            <div class="banner-info">
+              <ul class="banner-info_list">
+                <li class="banner-info_item banner-info_item_1">Площадь парка 2100 м²</li>
+                <li class="banner-info_item banner-info_item_2">Командные игры</li>
+                <li class="banner-info_item banner-info_item_3">Свобода передвижений</li>
+              </ul>
+            </div>
+            <div class="banner-slider">
+              
+            </div>
+          </div>
+          <div class="banner-items-img">
+            <img class="banner-img" src="/images/banner-main.png" alt="">
+          </div>
+          <div class="banner-items-center">
+            <img class="banner-center-img-top" src="/images/banner-cosmo.png" alt="">
+            <h2 class="banner-center-title">В центре Киева</h2>
+            <p class="banner-center-info">Шулявська — 400м</p>
+            <img class="banner-center-img-bottom" src="/images/Subtract.svg" alt="">
+          </div>
+           
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
