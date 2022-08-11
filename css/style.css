@@ -252,6 +252,7 @@ body{
 
 .banner{
     color: #FFFFFF;
+    height: 150px;
 }
 
 .banner-wrapper{
@@ -342,8 +343,8 @@ body{
 
 .banner-center-img-top{
     margin-top: 22px;
-    width: 201px;
-    height: 201px;
+    max-width: 201px;
+    max-height: 201px;
 }
 
 .banner-center-img-bottom{
@@ -368,4 +369,117 @@ body{
     content: url(/images/banner-m.svg);
     position: absolute;
     margin-left: -35px;
+}
+
+
+.banner-slider{
+    margin-top: 79px;
+}
+
+/* .banner-slider_wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+
+} */
+
+.banner-slider{
+    background: rgba(255, 255, 255, 0.3);
+    max-width: 500px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.banner-slider_wrapper{
+    color: #FFFFFF;
+    padding: 30px 50px;
+    background: url(/images/slider-img-banner.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 100%;
+}
+
+.banner-slider_wrapper div{
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+
+/* .banner-slider_wrapper::after{
+    content: url(/images/slider-img-banner.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+} */
+
+.banner-slider-item_info{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.banner-slider-item_text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.banner-slider-item_btn{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 30px;    
+    padding: 15px 30px;
+    border: 2px solid #ffffff;
+    margin-top: 20px;
+    background: transparent;
+}
+
+.slick-dots {
+    left: 0;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    line-height: 40px;
+    color: white;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #ffffff;
+}
+
+.slick-next:before {
+    content: url(/images/next-clider-top.svg);
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 50%;
+    width: 26px;
+    position: absolute;
+    top: -15px;
+    opacity: 1; 
+    right: 0;
+}
+
+.slick-prev::before {
+    content: url(/images/prev-slider-top.svg);
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 50%;
+    width: 26px;
+    position: absolute;
+    left: 0px;
+    top: -15px;
+    opacity: 1;
+    
 }
