@@ -8,6 +8,7 @@ window.addEventListener('load', () => {
         modalMenu.classList.toggle('hidden')
         closeMenuBtn.classList.toggle('hidden')
         openMenuBtn.classList.toggle('hidden') 
+        document.body.classList.toggle('no-scroll')
     }
 
     openMenuBtn.addEventListener('click', openModalMenu)
@@ -24,5 +25,9 @@ window.addEventListener('load', () => {
         entertainmentList.classList.toggle('show');
     })
 
+
+
 })
+
+
 

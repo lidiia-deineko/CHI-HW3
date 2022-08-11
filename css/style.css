@@ -243,6 +243,11 @@ body{
     display: block;
 }
 
+.no-scroll{
+    overflow: hidden;
+}
+
+
 /* banner */
 
 .banner{
