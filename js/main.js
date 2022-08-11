@@ -26,6 +26,18 @@ window.addEventListener('load', () => {
     })
 
 
+    //open holidaysList
+    const holidaystBtn = document.querySelector('.holidays-btn')
+   
+    const holidaystList =document.querySelector('.holidays-list')
+
+    holidaystBtn.addEventListener('click', () => {
+        holidaystList.classList.toggle('show');
+    })
+
+
+    //slider in banner
+
     $(".banner-slider_wrapper").slick({
         dots: true,
         infinite: true,

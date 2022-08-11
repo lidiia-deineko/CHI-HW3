@@ -247,6 +247,49 @@ body{
     overflow: hidden;
 }
 
+/* holidays-list */
+.holidays-list{
+    max-width: 200px;
+}
+
+.holidays-list_item{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-left: 40px;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.holidays-list_item-1::before{
+    content: url(/images/holiday-1.svg);
+    position: absolute;
+    left: -10px;
+    top: -6px;
+}
+
+.holidays-list_item-2::before{
+    content: url(/images/holiday-2.svg);
+    position: absolute;
+    left: -10px;
+    top: -6px;
+}
+
+.holidays-list_item-3::before{
+    content: url(/images/holiday-3.svg);
+    position: absolute;
+    left: -10px;
+    top: -6px;
+}
+
+.holidays-list_item-4::before{
+    content: url(/images/holiday-4.svg);
+    position: absolute;
+    left: -10px;
+    top: -6px;
+}
 
 /* banner */
 
