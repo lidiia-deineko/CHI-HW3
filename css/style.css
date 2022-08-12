@@ -1,7 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/a575313c6dc4fd00c1a9506e1c3ea4fc?family=Euclid+Circular+A);
 
 body{
-    font-family: 'Euclid Circular A';
+    font-family: 'Euclid Circular A', sans-serif ;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -231,14 +231,6 @@ body{
    margin-bottom: 40px;
 }
 
-.mobile-open-btn{
-    width: 28px;
-}
-.mobile-close-btn{
-    width: 28px;
-    margin-left: -10px;
-}
-
 .show{
     display: block;
 }
@@ -400,13 +392,14 @@ body{
 .banner-center-info{
     line-height: 20px;
     margin-bottom: 22px;
-    padding-left: 20px;
+    position: relative;
+    display: inline-block;
 }
 
 .banner-center-info::before{
     content: url(/images/banner-m.svg);
     position: absolute;
-    margin-left: -35px;
+    left: -35px;
 }
 
 .banner-slider{
@@ -547,3 +540,6 @@ body{
     background-color: transparent;
     border: 1px solid #ffffff;
 }
+
+
+

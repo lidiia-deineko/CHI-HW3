@@ -43,6 +43,14 @@
     .banner-info_item:not(:last-child){
         margin-right: 35px;
     }
+
+    .banner-items-img {
+        margin-top: 80px;
+    }
+
+    .banner-items-center {
+        top: 650px;
+    }
     
 }
 
@@ -133,7 +141,7 @@
     .banner-items-center {
         width: 372px;
         height: 372px;
-        top: 500px;
+        top: 600px;
     }
         
     .banner-center-img-top{
@@ -159,11 +167,11 @@
    
     /* header */
 
-    .header{
+    /* .header{
         padding: 10px 20px;
         background: rgb(249, 238, 238);
         height: 70px;
-    }
+    } */
 
    .navbar-items, .navbar-btn{
         display: none;
@@ -172,12 +180,23 @@
    .navbar-mobile{
         display: flex;
         align-items: center;
+        position: relative;
+        padding-right: 50px;
     }
 
     .navbar-mobile-item{
         margin: 0 15px;
     }
 
+    .mobile-open-btn{
+        position: absolute;
+        right: 0;
+    }
+
+    .mobile-close-btn{
+        position: absolute;
+        left: 85px;
+    }
 
     /* banner */
 

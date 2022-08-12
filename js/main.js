@@ -45,10 +45,10 @@ window.addEventListener('load', () => {
         slidesToShow: 1,
         slidesToScroll: 1
       });
-      
-      
-      
 
+
+   
+      
 })
 
 
