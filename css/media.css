@@ -20,6 +20,84 @@
     
 }
 
+@media (max-width: 1750px) {
+    .item-b_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .item-b__1::after{
+        content: url(/images/events-bg-right-1.png);
+        position: absolute;
+        top: 25%;
+        right: 0;
+    }
+
+    .item-b__1::before{
+        content: url(/images/evants-bg-left-1.png);
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .item-b__2::after{
+        content: url(/images/events-bg-right-2.png);
+        position: absolute;
+        top: 25%;
+        right: 0;
+    }
+
+    .item-b__2::before{
+        content: url(/images/events-bg-left-2.png);
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .item-b__3::after{
+        content: url(/images/events-bg-right-3.png);
+        position: absolute;
+        top: 25%;
+        right: 0;
+    }
+
+    .item-b__3::before{
+        content: url(/images/events-bg-left-3.png);
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .item-b__4::after{
+        content: url(/images/events-bg-right-4.png);
+        position: absolute;
+        top: 25%;
+        right: 0;
+    }
+
+    .item-b__4::before{
+        content: url(/images/events-bg-left-4.png);
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .item-b__5::after{
+        content: url(/images/events-bg-right-5.png);
+        position: absolute;
+        top: 25%;
+        right: 0;
+    }
+
+    .item-b__5::before{
+        content: url(/images/events-bg-left-5.png);
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+}
+
 @media (max-width: 1650px) {
    
     /* banner */
