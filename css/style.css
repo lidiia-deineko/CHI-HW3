@@ -1,5 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/a575313c6dc4fd00c1a9506e1c3ea4fc?family=Euclid+Circular+A);
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Euclid Circular A', sans-serif ;
     font-style: normal;
@@ -639,11 +643,15 @@ body{
 }
 
 .item.item-top.slick-slide.slick-current{
-    color: #000000;
-    stroke: #000000;
-    fill: #000000;
-    
+    color: #000000; 
 }
+
+.item.item-top.slick-slide.slick-current path{
+    stroke: #000000;
+    fill: #000000;   
+}
+
+
 .item-top.slick-current{
     position: relative;
     background-color: #ffffff;
@@ -672,8 +680,11 @@ body{
     margin-right: 10px;
     margin-left: 10px;
     color: #CE2127;
+}
+
+.item.item-top.slick-slide path{
     stroke: #CE2127;
-    /* fill: #CE2127; */
+    fill: #CE2127;
 }
 
 .item.item-top{
@@ -792,6 +803,7 @@ body{
     color: #ffffff;
     bottom: 0;
     position: relative;
+    z-index: 1;
   }
 
   .item-slidet-elem_title{
@@ -858,3 +870,78 @@ body{
     left: 0;
     top: -15px;
   }
+
+
+  /* events-mobile */
+
+  .content-mobile{
+    display: none;
+  }
+
+  summary.events-summary::marker{
+    content: none;
+  }
+
+  .events-summary{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #CE2127;
+    padding: 28px 55px 28px 75px;
+    border: 5px solid #ffffff;
+    border-radius: 28px;
+    position: relative;
+    margin-bottom: 5px;
+  }
+
+  .events-summary svg{
+    position: absolute;
+    top: 25%;
+    left: 20px;
+  }
+
+  .events-summary svg path{
+    fill: #CE2127;
+  }
+
+  .content-mobile_item{
+    margin-bottom: 10px;
+  }
+
+  .events-summary::after{
+    content: url(/images/events-open-arrow.svg);
+    position: absolute;
+    right: 40px;
+    top: 35%;
+  }
+
+  details[open] > .events-summary{
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 28px 28px 0 0;
+  }
+
+  details[open] > .events-summary::after {
+    content: url(/images/event-close-arrow.svg);
+  }
+
+  details[open] > .events-summary svg path{
+    fill: #000000;
+  }
+
+  .events-summary-content{
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+  .item-content__mobile{
+    max-width: 680px;
+    text-align: center;
+  }
+
+  .events-summary span{
+    padding-right: 25px;
+  }
+
