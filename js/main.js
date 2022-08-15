@@ -125,8 +125,63 @@ window.addEventListener('load', () => {
             }
         ]
       });
+
+
+
+      //popup-booking
+
+      //close&open
+
+      const itemContentBtns = document.querySelectorAll('.item-content__btn');
+
+      const closeBtnPopupBooking = document.querySelector('.popup-booking-place_close-btn')
       
-})
+      const popupBooking = document.querySelector('.popup-booking');
+
+      const openPopupBooking = () => {
+        popupBooking.classList.toggle('hidden')
+        document.body.classList.toggle('no-scroll')
+      }
+
+      itemContentBtns.forEach(btn => {
+        btn.addEventListener('click', openPopupBooking)
+      })
+
+      closeBtnPopupBooking.addEventListener('click', openPopupBooking)
+
+      //input
+
+      const popupBookingPlaceInput = document.querySelector('.popup-booking-place_input');
+
+      const popupBookingPlaceList = document.querySelector('.popup-booking-place_list')
+
+      const popupBookingPlaceItems = document.querySelectorAll('.popup-booking-place_item')
+
+      popupBookingPlaceItems.forEach(item => {
+        item.addEventListener('click', () => {
+          console.log(item.textContent)
+          popupBookingPlaceInput.value = item.textContent
+          popupBookingPlaceList.classList.toggle('hidden')
+        })
+      })
+
+      popupBookingPlaceInput.addEventListener('click', () => {
+        popupBookingPlaceList.classList.toggle('hidden')
+      })
+
+
+      //popup slider
+
+      $(".popup-booking-games_list").slick({
+        dots: false,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true,
+        arrows:false,
+
+      });
+      
+})  
 
 
 

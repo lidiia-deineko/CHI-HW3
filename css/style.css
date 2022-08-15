@@ -945,3 +945,187 @@ body{
     padding-right: 25px;
   }
 
+/* popup-booking */
+
+.popup-booking{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 250;
+}
+
+.popup-booking-inner{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    /* text-align: center; */
+    background-color: #e1dfdf;
+    padding: 70px 50px 70px 120px;
+    border-radius: 50px;
+    overflow-y: auto;
+}
+
+
+/* .popup-booking-inner::after{
+    content: url(/images//popup-close-btn.svg);
+    position: absolute;
+    top: -50px;
+    right: -50px;
+} */
+
+
+.popup-booking-place{
+    margin-bottom: 150px;
+}
+
+.popup-booking_title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.popup-booking_title-img{
+    position: absolute;
+    left: -100px;
+    top: -20px;
+    z-index: 100;
+}
+
+.popup-booking-place_close-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.popup-booking-place_input{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    width: 100%;
+    appearance: none;
+    border: none;
+    color: #000000;
+}
+
+.popup-booking-place_list{
+    margin-top: 5px;
+}
+
+.popup-booking-place_item{
+    color: #CE2127;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    border: 3px solid #ffffff;
+    border-radius: 25px;
+    padding: 30px;
+    margin-bottom: 5px;
+}
+
+
+.popup-booking-wrap{
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.popup-booking-wrap_1{
+    background: url(/images/popup-img-1.png);
+}
+
+.popup-booking-wrap_2{
+    background: url(/images/events-inslider-1.png);   
+    background-size: cover;
+}
+
+.popup-booking-wrap_3{
+    background: url(/images/arena-4.png); 
+    background-size: cover;  
+}
+
+.popup-booking-wrap_4{
+    background: url(/images/events-inslider-1.png);   
+    background-size: cover;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.popup-booking-games_item{
+    margin-bottom: 15px;
+}
+
+.popup-booking-wrap{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.popup-booking-wrap_name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 100px;
+    text-align: center;
+}
+
+.popup-booking-wrap_btn{
+    width: 128px;
+    border: 5px solid #ffffff;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #CE2127;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.popup-booking-wrap_btn::after{
+    content: 'Выбрать';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+}
+
+input[type="radio"]:checked+label .popup-booking-wrap_btn::after{
+    content: 'Выбрано';
+    color: #000000;
+    background-color: #ffffff;
+    
+}
+input[type="radio"]:checked+label .popup-booking-wrap_btn{
+    content: 'Выбрано';
+    color: #000000;
+    background-color: #ffffff;
+    
+}
