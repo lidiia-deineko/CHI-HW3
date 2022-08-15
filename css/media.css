@@ -660,6 +660,14 @@
         margin-top: 20px;
     }
 
+    .item-content__list-item:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .item-content__list-item{
+        margin-left: 40px;
+    }
+
 }
 
 

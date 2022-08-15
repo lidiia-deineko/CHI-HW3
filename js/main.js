@@ -114,6 +114,16 @@ window.addEventListener('load', () => {
         arrows: true,
         prevArrow: '<button type="button" class="events-btn-prev"><img src="images/prev-slider-top.svg" alt=""></button>',
         nextArrow: '<button type="button" class="events-btn-next"><img src="images/next-clider-top.svg" alt=""></button>',
+        responsive: [
+            {
+              breakpoint: 770,
+              settings: {
+                // centerMode: false,
+                // autoplay: true,
+                
+              }
+            }
+        ]
       });
       
 })
