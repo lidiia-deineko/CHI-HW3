@@ -120,7 +120,6 @@ window.addEventListener('load', () => {
               settings: {
                 // centerMode: false,
                 // autoplay: true,
-                
               }
             }
         ]
