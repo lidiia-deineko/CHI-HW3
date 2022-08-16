@@ -1,0 +1,12 @@
+.env
+
+*.log
+
+node_modules/
+
+.idea/
+.vscode/
+*.sw*
+
+.svg
+.png
