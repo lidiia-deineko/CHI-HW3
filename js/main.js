@@ -172,7 +172,13 @@ window.addEventListener('load', () => {
 
       //popup slider
       
-      
+      const popupBookingGamesLlist = document.querySelector('.popup-booking-games_list')
+
+      if(window.innerWidth < 700){
+        popupBookingGamesLlist.classList.add('popup-booking-games_slider')
+      } else if(window.innerWidth > 700){
+        popupBookingGamesLlist.classList.remove('popup-booking-games_slider')
+      }
     
         $(".popup-booking-games_slider").slick({
           dots: false,
