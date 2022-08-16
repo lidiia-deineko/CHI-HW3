@@ -959,18 +959,16 @@ body{
 
 .popup-booking-inner{
     width: 80%;
-    height: 80%;
+    height: 90%;
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -30%);
-    /* text-align: center; */
     background-color: #e1dfdf;
     padding: 70px 50px 70px 120px;
     border-radius: 50px;
     overflow-y: auto;
 }
-
 
 /* .popup-booking-inner::after{
     content: url(/images//popup-close-btn.svg);
@@ -978,7 +976,6 @@ body{
     top: -50px;
     right: -50px;
 } */
-
 
 .popup-booking-place{
     margin-bottom: 150px;
@@ -1063,13 +1060,19 @@ body{
     background-size: cover;
 }
 
-
 input[type="radio"] {
     display: none;
 }
 
+.popup-booking-games_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .popup-booking-games_item{
     margin-bottom: 15px;
+    margin-right: 10px;
 }
 
 .popup-booking-wrap{
@@ -1129,3 +1132,5 @@ input[type="radio"]:checked+label .popup-booking-wrap_btn{
     background-color: #ffffff;
     
 }
+
+

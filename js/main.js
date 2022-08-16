@@ -171,15 +171,9 @@ window.addEventListener('load', () => {
 
 
       //popup slider
+      
+     
 
-      $(".popup-booking-games_list").slick({
-        dots: false,
-        slidesToShow: 1,
-        centerMode: true,
-        variableWidth: true,
-        arrows:false,
-
-      });
       
 })  
 
